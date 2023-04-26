@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    font-size: 62.5%;
+
+    
+}
+.container{
+    margin: 25% auto;
+    background-color: blue;
+    width: 40rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+    
+
+    border-radius: 1rem;
+    font-size: 0rem;
+}
+
+span{
+    font-size: 1rem;
+}
+
+.elemento{
+    
+    background-color: red;
+    width: 10rem;  
+    height: 5rem;
+    color: white;
+    
+    
+    margin-left: 30rem;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.elemento:nth-child(1){
+    border-bottom-right-radius: 1rem;
+}
+.elemento:nth-child(4){
+    border-top-right-radius: 1rem;
+}
+
+
