@@ -1,0 +1,49 @@
+mai. 01, 2023 7:01:53 PM Principal main
+INFO: 
+ O programa iniciou a chamada da Calculadora!!
+mai. 01, 2023 7:01:59 PM Principal main
+INFO: 
+ O cálculo foi realizado com sucesso!.
+mai. 01, 2023 7:08:19 PM Principal main
+INFO: 
+ O programa iniciou a função de calculo!
+mai. 01, 2023 7:08:26 PM Principal main
+WARNING: O @user tentou realizar uma divisão por 0
+mai. 01, 2023 7:08:46 PM Principal main
+INFO: 
+ O @user realizou uma operação de cálculo com sucesso!.
+mai. 01, 2023 7:08:52 PM Principal main
+INFO: 
+ O programa iniciou a função de calculo!
+mai. 01, 2023 7:09:00 PM Principal main
+INFO: 
+ O @user realizou uma operação de cálculo com sucesso!.
+mai. 01, 2023 7:13:19 PM Principal main
+INFO: 
+ O programa iniciou a função de calculo!
+mai. 01, 2023 7:13:26 PM Principal main
+WARNING: O @user tentou realizar uma divisão por 0
+mai. 01, 2023 7:13:35 PM Principal main
+INFO: 
+ O @user realizou uma operação de cálculo com sucesso!.
+mai. 01, 2023 7:19:24 PM Principal main
+INFO: 
+ O programa iniciou a função de calculo!
+mai. 01, 2023 7:35:22 PM Principal main
+INFO: 
+ O programa iniciou a função de calculo!
+mai. 01, 2023 7:35:35 PM Principal main
+INFO: 
+ O @user realizou uma operação de cálculo com sucesso!.2.0
+mai. 01, 2023 7:36:31 PM Principal main
+INFO: 
+ O programa iniciou a função de calculo!
+mai. 01, 2023 7:36:37 PM Principal main
+INFO: 
+ O @user realizou uma operação de cálculo com sucesso!. O Resultado da operação foi 2.0
+mai. 01, 2023 7:36:48 PM Principal main
+INFO: 
+ O programa iniciou a função de calculo!
+mai. 01, 2023 7:36:52 PM Principal main
+INFO: 
+ O @user realizou uma operação de cálculo com sucesso!. O Resultado da operação foi Infinity
