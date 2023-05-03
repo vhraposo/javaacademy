@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+
+    --bg-color-yellow: #ffff00;
+    --bg-color-orange: #ffa500;
+    --bg-color-lightpink : #FAC5B7;
+    --bg-color-lightblue: #ACDFEC;
+    --bg-color-lightgreen: #9EE5D4;
+    --bg-color-lightpurple : #E5BDE5;
+    --bg-color-lightgray:  #EEEEEE;
+    --bg-color-green: #89E789;
+}
+
+
+body{
+    
+    background: #fef5e7;
+}
+
+table {
+    
+    margin: 0 auto;
+    min-width: 90rem;
+    border-collapse: collapse;
+    box-shadow: 0 0 1rem rgba(197, 29, 29, 0.9);
+}
+
+
+caption{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+thead{
+    background-color: #0700e1;
+    color: white;
+    text-align: center;
+}
+th,td{
+    padding: 1rem 1.5rem;
+    text-align: left;
+}
+
+.first-element{
+    background-color: var(--bg-color-green);
+}
+
+.first-collumn{
+    background-color: var(--bg-color-orange);
+}
+.second-collumn{
+    background-color: var(--bg-color-yellow)
+}
+.mid-elements{
+    background-color: var(--bg-color-lightpink)
+}
+.mid-right-elements{
+    background-color: var(--bg-color-lightblue)
+}
+.mid-right-top-elements{
+    background-color: var(--bg-color-lightgreen)
+}
+.penultimate-collumn{
+    background-color: var(--bg-color-green);
+}
+.last-collumn{
+    background-color: var(--bg-color-lightpurple)
+}
+.bottom-row{
+    background-color: var(--bg-color-lightgray)
+}
+
+
+
+
+.yellow:hover{
+    background-color: #FEF9E7;
+}
+
+
+
+.orange:hover{
+    background-color: #FAD7A0;
+}
+
