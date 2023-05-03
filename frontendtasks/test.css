@@ -15,13 +15,36 @@
     --bg-color-lightpurple : #E5BDE5;
     --bg-color-lightgray:  #EEEEEE;
     --bg-color-green: #89E789;
+    --bg-color-lightbrown: #E8D19C;
+    --bg-color-pink: #F5CCDA;
+
+
+    --bg-color-greenonhover: #64ae64;
+    --bg-color-orangehover: #c58715;
+    --bg-color-yellowhover: #c6c61d;
+    --bg-color-lightpinkhover : #d6aca0;
+    --bg-color-lightbluehover: #8cbbc7;
+    --bg-color-lightgreenhover: #77d7c1;
+    --bg-color-lightpurplehover : #be8dbe;
+    --bg-color-lightgrayhover:  #ead5d5;
+    --bg-color-lightbrownhover: #a89361;
+    --bg-color-pinkhover: #da819f;
 }
 
 
 body{
-    
-    background: #fef5e7;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6f2f2;
+    text-shadow: #260707 0 0px 1px;
+    color: #060606f6;
+    text-align: left;
+    z-index: 1;
+    position: relative;
+
 }
+
+
+
 
 table {
     
@@ -44,51 +67,119 @@ thead{
     background-color: #0700e1;
     color: white;
     text-align: center;
+    
 }
 th,td{
     padding: 1rem 1.5rem;
     text-align: left;
+    
+}
+
+td{
+    cursor: pointer;
 }
 
 .first-element{
     background-color: var(--bg-color-green);
 }
+.first-element:hover{
+    background-color: var(--bg-color-greenonhover);
+}
 
 .first-collumn{
     background-color: var(--bg-color-orange);
 }
+.first-collumn:hover{
+    background-color: var(--bg-color-orangehover);
+}
+
 .second-collumn{
-    background-color: var(--bg-color-yellow)
+    background-color: var(--bg-color-yellow);
 }
+.second-collumn:hover{
+    background-color: var(--bg-color-yellowhover);
+}
+
 .mid-elements{
-    background-color: var(--bg-color-lightpink)
+    background-color: var(--bg-color-lightpink);
 }
+.mid-elements:hover{
+    background-color: var(--bg-color-lightpinkhover);
+}
+
 .mid-right-elements{
-    background-color: var(--bg-color-lightblue)
+    background-color: var(--bg-color-lightblue);
 }
+.mid-right-elements:hover{
+    background-color: var(--bg-color-lightbluehover);
+}
+
 .mid-right-top-elements{
-    background-color: var(--bg-color-lightgreen)
+    background-color: var(--bg-color-lightgreen);
 }
+.mid-right-top-elements:hover{
+    background-color: var(--bg-color-lightgreenhover);
+}
+
 .penultimate-collumn{
     background-color: var(--bg-color-green);
 }
+.penultimate-collumn:hover{
+    background-color: var(--bg-color-greenonhover);
+}
+
 .last-collumn{
-    background-color: var(--bg-color-lightpurple)
+    background-color: var(--bg-color-lightpurple);
 }
+.last-collumn:hover{
+    background-color: var(--bg-color-lightpurplehover);
+}
+
 .bottom-row{
-    background-color: var(--bg-color-lightgray)
+    background-color: var(--bg-color-lightgray);
+}
+.bottom-row:hover{
+    background-color: var(--bg-color-lightgrayhover);
+}
+
+.nine-row{
+    background-color: var(--bg-color-lightbrown);
+}
+.nine-row:hover{
+    background-color: var(--bg-color-lightbrownhover);
+}
+
+.tenth-row{
+    background-color: var(--bg-color-pink);
+}
+.tenth-row:hover{
+    background-color: var(--bg-color-pinkhover);
+}
+
+
+.first-element:hover, 
+.first-collumn:hover,
+.second-collumn:hover,
+.mid-elements:hover,
+.mid-right-elements:hover,
+.mid-right-top-elements:hover,
+.penultimate-collumn:hover,
+.last-collumn:hover,
+.bottom-row:hover,
+.nine-row:hover,
+.tenth-row:hover{
+
+scale: 1.3;
+border-radius: 1rem;
+
+}
+
+
+.unsetelements{
+    background-color: var(--bg-color-lightblue);
+    pointer-events: none;
 }
 
 
 
-
-.yellow:hover{
-    background-color: #FEF9E7;
-}
-
-
-
-.orange:hover{
-    background-color: #FAD7A0;
-}
 
