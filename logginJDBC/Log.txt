@@ -1,0 +1,39 @@
+mai. 03, 2023 6:34:34 PM package01.BancoDados main
+INFO: 
+ O programa foi iniciado, escolha uma opção para conectar com o BD:
+mai. 04, 2023 5:45:48 PM package01.BancoDados main
+INFO: 
+ O programa foi iniciado, escolha uma opção para conectar com o BD:
+mai. 04, 2023 5:46:42 PM package01.BancoDados main
+INFO: 
+ O programa foi iniciado, escolha uma opção para conectar com o BD:
+mai. 04, 2023 5:46:45 PM package01.BancoDados conectar
+WARNING: 
+ Realizado a conexão do banco com sucesso! 
+mai. 04, 2023 5:46:45 PM package01.BancoDados main
+INFO: 
+ Iniciando a operação de inserção no banco
+mai. 04, 2023 5:46:58 PM package01.BancoDados inserirAlterarExcluir
+WARNING: 
+1linhas foram afetadas. 
+mai. 04, 2023 5:47:37 PM package01.BancoDados main
+INFO: 
+ O programa foi iniciado, escolha uma opção para conectar com o BD:
+mai. 04, 2023 5:47:46 PM package01.BancoDados conectar
+WARNING: 
+ Realizado a conexão do banco com sucesso! 
+mai. 04, 2023 5:47:46 PM package01.BancoDados main
+WARNING: 
+ Iniciando a operação de delete no banco
+mai. 04, 2023 5:47:50 PM package01.BancoDados inserirAlterarExcluir
+WARNING: 
+1linhas foram afetadas. 
+mai. 04, 2023 5:47:50 PM package01.BancoDados main
+INFO: 
+ Iniciando a operação de consulta no banco
+mai. 04, 2023 5:47:50 PM package01.BancoDados main
+INFO: 
+ Iniciando a operação de desconexão no banco
+mai. 04, 2023 5:47:50 PM package01.BancoDados desconectar
+WARNING: 
+ Realizado a desconexão do banco com sucesso! 
